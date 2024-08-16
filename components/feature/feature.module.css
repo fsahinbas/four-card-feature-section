@@ -1,0 +1,29 @@
+.card {
+  position: relative;
+  width: 24rem;
+  min-height: 18rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid var(--red);
+  box-shadow: 0 4px 10px hsla(212, 86%, 64%, 0.2);
+}
+
+.cardTitle {
+  color: var(--very-dark-blue);
+  margin-bottom: 1rem;
+}
+
+.cardDesc {
+  color: var(--grayish-blue);
+}
+.cardIcon {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 100%;
+  }
+}
